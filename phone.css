@@ -8,6 +8,7 @@ header{
 .user {
     align-items: center;
     justify-content: center;
+    margin-left: 0%;
 }
 .user button,.user button:active {
     height: 25px;
@@ -66,9 +67,7 @@ header{
     text-shadow:2px 1px 5px black;
     
 }
-#Clients-container{
-    /* height: 32vh; */
-}
+
 .Contact-box input,
 .Contact-box textarea{
     font-size: 0.5rem;

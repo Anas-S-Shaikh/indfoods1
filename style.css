@@ -31,7 +31,6 @@ header{
     height: 40px;
 }
 .logo{
-    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     width:115px ;
@@ -74,12 +73,13 @@ li a:hover{
     color:white;
     background-color: var(--lightpurpel);
 }
+
 /* login signup button */
 .user{
     display: flex;
-    flex-direction: row-reverse;
-    width: 64%;
+    margin-left: auto;
 }
+
 /* section home */
 #Home{
     height: 95vh;
@@ -149,8 +149,6 @@ li a:hover{
 }
 #Services .box a:hover{
     background-color: var(--lightpurpel);
-    /* border-radius: px; */
-    
 }
 #Services .box img{
     filter: invert();
