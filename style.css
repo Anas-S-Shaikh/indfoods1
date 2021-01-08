@@ -15,13 +15,15 @@ html{
 /* Header  */
 header{
     display: flex;
-    position: sticky;
+    position: absolute;
     top: 0px;
+    width: 100%;
     z-index: 1;
     border: 1px solid var(--lightpurpel);
-    
-    background-color: var(--darkpurpel);
-
+    background-color: #242038ad;
+    border-left: 0;
+    padding: 10px;
+    border-right: 0;
 }
 
 /* image and logo  */
@@ -82,7 +84,7 @@ li a:hover{
 
 /* section home */
 #Home{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,12 +94,13 @@ li a:hover{
 }
 #Home::before{
     content: "";
-    height: 95%;
+    height: 100vh;
     width: 100%;
     position: absolute;
     background: url(bg3.jpg) no-repeat center center/cover;
     z-index: -1;
     opacity: 0.95;
+    top: 0;
 }
 #Home h1{
     
