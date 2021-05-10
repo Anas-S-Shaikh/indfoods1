@@ -22,7 +22,7 @@ header{
     border: 1px solid var(--lightpurpel);
     background-color: #242038ad;
     border-left: 0;
-    padding: 10px;
+/*     padding: 10px; */
     border-right: 0;
 }
 
